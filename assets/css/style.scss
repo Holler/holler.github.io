@@ -1,3 +1,6 @@
+---
+---
+
 /*
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
@@ -192,6 +195,11 @@ h4 {
 	color: white;
 	font-size: 70px;
 }
+@media (max-width: 570px){
+	#h h1 {
+		font-size: 50px;
+	}
+}
 
 
 #h .continue {
@@ -217,7 +225,7 @@ h4 {
 #g {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #f7f8fa;
+	/*background: #f7f8fa;*/
 }
 
 
@@ -239,6 +247,42 @@ h4 {
 	width: 80px;
 }
 
+/* PRICING AREA */
+/* Prices */
+#ws .price {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border: 2px solid #929292;
+	margin-bottom: 20px;
+}
+
+#ws .price h1 {
+	font-weight: 700;
+	font-size: 70px;
+}
+
+#ws .price h6 {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#ws .price p {
+	font-size: 18px;
+}
+
+#ws .price .btn-trans {
+	color: #444;
+	background-color: #FDE3A7;
+	border-color: #444;
+	border-width: 2px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#ws .price .btn-trans:hover {
+	background: transparent
+}
 
 /* GENERAL CONF */
 
