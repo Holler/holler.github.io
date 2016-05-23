@@ -1,11 +1,8 @@
 ---
-layout: policy
+layout: article
 title: Terms of Use
 permalink: /terms/
 ---
-
-
-# Terms of Use
 
 This agreement is updated as of May 5, 2016, replacing all previous versions in their entirety.
 

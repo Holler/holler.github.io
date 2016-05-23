@@ -1,0 +1,29 @@
+---
+layout: application
+---
+<article class="article">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 content">
+      <div id='logo'>
+        <a href='/'><img src='/assets/images/holler-logo.png' alt='Holler' title='Holler' border='0' /></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class='col-md-8 col-md-offset-2'>
+        <section class='article'>
+          <article>
+            <header>
+              <h1 class="post-title">{{ page.title }}</h1>
+              <!-- <p class='byline'>By Nick O'Neill</p> -->
+            </header>
+          </article>
+          <section>
+            {{ content }}
+          </section>
+        </section>
+      </div>
+    </div>
+
+  </div>
+</article>
+{% include footer.html %}
