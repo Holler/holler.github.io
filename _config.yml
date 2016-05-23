@@ -16,3 +16,9 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
