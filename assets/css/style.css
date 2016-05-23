@@ -174,13 +174,18 @@ h4 {
 }
 
 #h h3.logo {
-	font-weight: 900;
+	background-image: url('../images/holler-logo.png');
+	width: 171px;
+	height: 89px;
+	text-indent: -10000px;
+	margin-bottom: 120px;
+	/*font-weight: 900;
 	text-align: center;
 	color: white;
 	margin-bottom: 120px;
 	border: 3px solid white;
 	width: 150px;
-	padding: 12px;
+	padding: 12px;*/
 }
 
 #h h1 {
