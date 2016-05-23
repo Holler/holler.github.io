@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ "/assets/css/articles.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/css/custom-animations.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/css/ionicons.min.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/articles.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/custom-animations.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/ionicons.min.css">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+    <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}"> -->
 
     <!-- Bootstrap core CSS -->
 

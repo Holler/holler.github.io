@@ -2,6 +2,8 @@
 layout: article
 title: Privacy Policy
 permalink: /privacy/
+redirect_from:
+  - /privacy-policy/
 ---
 
 We may amend this policy at any time. All amended terms automatically take effect 10 days after they are initially posted on the Website. You agree that notice on the Website of changes to the policy is sufficient notice. Your continued use of the Website following the posting of changes to this policy will mean that you accept those changes.
