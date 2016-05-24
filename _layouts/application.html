@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/articles.css">
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/style.css">
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/custom-animations.css">
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/articles.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/custom-animations.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/ionicons.min.css">
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}"> -->
 
     <!-- Bootstrap core CSS -->
@@ -43,11 +43,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-      var host = "holler.com";
-      if ((host == window.location.host) && (window.location.protocol != "https:"))
-          window.location.protocol = "https";
-    </script>
   </head>
 
   <body class="{{ page.body_class }}">

@@ -10,7 +10,7 @@ title: Holler
 email: nick@holler.com
 description: Holler is the mobile customer support and communication platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.holler.com/ # the base hostname & protocol for your site
+url: https://www.holler.com # the base hostname & protocol for your site
 enforce_ssl: www.holler.com
 twitter_username: holler
 permalink: pretty
