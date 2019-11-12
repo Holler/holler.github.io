@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .modal_container {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',  Ubuntu, Arial, sans-serif !important;
   display: none;
   position: fixed;
   top: 0;

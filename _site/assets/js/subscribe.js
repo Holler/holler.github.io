@@ -21,7 +21,7 @@ var modalForm = function(formKey, title, description) {
   return `
     <div class="modal_container" id='popform_${formKey}'>
       <div class="modal_body">
-        <img src="/assets/images/email-icon.jpg" />
+        <img src="/assets/images/holler-logo-nav.png" />
         <h2>${title}</h2>
         <p>
             ${description}
