@@ -1,0 +1,125 @@
+---
+---
+
+// Modals
+.modal_container {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1050;
+  background-color: rgba(0,0,0,.2);
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+
+  .confirm_email {
+    display: none;
+  }
+}
+.modal_close:before {
+  content: '✕';
+  color: #a1a1a1;
+}
+.modal_close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+.modal_body {
+  p {
+    font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+    font-size: 14px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+  }
+  -webkit-box-shadow: 0px 10px 14px 0px rgba(179,179,179,0.51);
+  -moz-box-shadow: 0px 10px 14px 0px rgba(179,179,179,0.51);
+  box-shadow: 0px 10px 14px 0px rgba(179,179,179,0.51);
+
+  fieldset {
+    input {
+      display: block;
+      width: 100%;
+    }
+    .field {
+      margin-bottom: 15px;
+    }
+  }
+
+  button, .submit_button {
+    background-color: #8cc63e;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 9px 12px;
+    // margin-left: 8px;
+  }
+}
+@media only screen and (min-width: 550px) {
+// @media only screen and (min-width: 415px) {
+  .modal_body {
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 35px 40px;
+    width: 470px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      margin: 30px 0;
+    }
+    span {
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    #error_message {
+      color: #ff0000;
+    }
+    input { 
+      font-size: 16px;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      padding: 8px 12px;
+    }
+  }
+}
+// @media only screen and (max-width: 414px) {
+@media only screen and (max-width: 549px) {
+  .modal_body {
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 35px 40px;
+  
+    top: 20px;
+    width: 95%;
+    margin: 20px auto;
+
+    p {
+      margin: 20px 0;
+    }
+    .modal_close {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      cursor: pointer;
+    }
+    input { 
+      font-size: 16px;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      padding: 8px 12px;
+    }
+  }
+}
